@@ -93,12 +93,12 @@ span.visualizacao-data {
 
 span.descricao {
     display: block;
-    font-family: Roboto;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 100%;
+    font-weight: 400;
     color: #515151;
     margin-top: 16px;
+    line-height: 1.5;
+    max-width: 600px;
 }
 
 .aside-container {
@@ -113,12 +113,11 @@ span.descricao {
 .sidebar {
     display: flex;
     gap: 8px;
-    margin-bottom: 8px;
 }
 
 .sidebar img {
-    width: 168px;
-    height: 94px;
+    width: 120px;
+    height: 68px;
     object-fit: cover;
     flex-shrink: 0;
 }
@@ -132,9 +131,9 @@ span.descricao {
 .text-sidebar p {
     font-weight: 400;                                       
     font-size: 12px;
-    line-height: 100%;
+    line-height: 1.4;
     color: #515151;
-    padding: 5px;
+    margin-top: 2px;
 }
 
 
