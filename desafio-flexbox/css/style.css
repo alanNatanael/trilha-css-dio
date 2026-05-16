@@ -61,6 +61,8 @@ body {
 .main-content section.video > img {
     width: 100%;
     height: auto;
+    max-height: 500px;
+    object-fit: cover;
     display: block;
 }
 
@@ -100,8 +102,8 @@ span.descricao {
 }
 
 .aside-container {
-    width: 350px;
-    flex-shrink: 0; /* não deixa o aside encolher */
+    width: 380px;
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
     gap: 8px;
